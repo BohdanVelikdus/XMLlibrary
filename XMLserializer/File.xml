@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "Library.dtd">
+<!-- Root comment for the XML file -->
+<library>
+    <!-- Library comment -->
+    <section name="Fiction" id="001">
+        <book id="b1">
+            <title><![CDATA[The Great Gatsby]]></title>
+            <author>F. Scott Fitzgerald</author>
+            <year>1925</year>
+            <publisher>Charles Scribner's Sons</publisher>
+            <description><![CDATA[An American classic that explores themes of wealth and society.<br />]]></description>
+            <!-- A comment inside the book element -->
+        </book>
+        <book id="b2">
+            <title>The Catcher in the Rye</title>
+            <author>J.D. Salinger</author>
+            <year>1951</year>
+            <publisher>Little, Brown and Company</publisher>
+            <description>Story of teenage angst and alienation.</description>
+        </book>
+    </section>
+    <section name="Non-Fiction" id="002">
+        <book id="b3">
+            <title>Educated</title>
+            <author>Tara Westover</author>
+            <year>2018</year>
+            <publisher>Random House</publisher>
+            <description>A memoir about growing up in a strict and abusive household in rural Idaho.</description>
+        </book>
+    </section>
+    <!-- Special comment with an entity reference -->
+    <section name="Special &amp; Rare from China" id="003">
+        <book id="b4">
+            <title>The Art of War</title>
+            <author>Sun Tzu</author>
+            <year>5th century BC</year>
+            <publisher>Unknown</publisher>
+            <description><![CDATA[Ancient Chinese military treatise. <br /> Contains strategic wisdom.]]></description>
+        </book>
+    </section>
+</library>
